@@ -17,7 +17,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: grade-submission-api
-          image: ghcr.io/jumptotechschooldevops/k8s-ci-build:f290057774565ced6b8c1c128376d4cf2e1099bb
+          image: ghcr.io/damira95/k8s-ci-build:201dc0d68fc169b0a8c6a128062b16208f941082
           ports:
             - containerPort: 3000
           resources:
